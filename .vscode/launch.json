@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "lldb",
+      "request": "launch",
+      "name": "Debug cli-greeting (rust-analyzer)",
+      "program": "${workspaceFolder}/packages/cli-greeting/target/debug/cli-greeting",
+      "args": [],
+      "cwd": "${workspaceFolder}/packages/cli-greeting",
+      "preLaunchTask": "build-cli-greeting",
+      "sourceLanguages": ["rust"]
+    }
+  ]
+}
